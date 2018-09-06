@@ -3,9 +3,11 @@
 apiVersion: "0.10"
 dependencies:
   build:
-  - vcs: "git"
+  - urls:
+    - "https://github.com/JackTiger/testD.git"
+    - "git@github.com:JackTiger/testD.git"
+    vcs: "git"
     name: "github.com/JackTiger/testD"
     commit: "c6b94313c27bc221cd08c04254e7c6f926547fc4"
-    url: "git@github.com:JackTiger/testD.git"
     transitive: false
   test: []
